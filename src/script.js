@@ -22,7 +22,7 @@ if (hideDebug) {
  * Texture loader
  */
 const textureLoader = new THREE.TextureLoader();
-const particleTexture = textureLoader.load("/textures/particles/jack.png");
+const particleTexture = textureLoader.load("textures/particles/jack.png");
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
